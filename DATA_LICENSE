@@ -1,0 +1,27 @@
+SEER-Bench and the format-rendered training corpora are released under the
+Creative Commons Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0). The full license text is available at:
+
+    https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Additional terms and provenance notes
+-------------------------------------
+
+1. Source data. SEER-Bench is derived from coded fields in a versioned release
+   of the SEER Research Data, obtained under a signed SEER data-use agreement.
+   The released items are natural-language clinical vignettes synthesized from
+   those coded fields together with gold labels taken directly from the coded
+   staging variables. They are not SEER patient records and contain no
+   identifiers. Users remain responsible for complying with the SEER data-use
+   terms that apply to them.
+
+2. Guideline sources. The training corpora are rendered from clinical update
+   events identified in the NCCN Guidelines(R) and related expert consensus
+   documents. The released items are paraphrased clinical questions and
+   rationales; they do not reproduce guideline text verbatim. Use of the
+   underlying guidelines remains subject to the NCCN Guidelines(R) terms of use.
+
+3. Intended use. These artifacts are intended for research on medical knowledge
+   updating and for benchmarking. They are not intended for, and must not be
+   used as, a basis for diagnosis, staging, treatment, or medication decisions
+   without qualified clinical oversight.
