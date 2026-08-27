@@ -28,28 +28,6 @@ case-insensitive normalization and common variants (e.g. "Stage IA" / "Stage
 the key clinical reasoning in `rationale`. See `../prompts/` for the grading
 prompt.
 
-## `train/` — format-rendered update supervision
-
-Four corpora of 2,530 items each, rendered from the same pool of 2,530 unique
-clinical vignettes so that the only variable is supervision structure:
-
-| File | Format |
-| :--- | :--- |
-| `saq.jsonl` | SAQ — short answer |
-| `fitb.jsonl` | FITB — fill in the blank |
-| `msq.jsonl` | MSQ — multiple select, item-local options |
-| `emq.jsonl` | EMQ — extended matching, shared option pool across vignettes |
-
-Each line is a chat record: `{"messages": [{"role": "user", ...},
-{"role": "assistant", ...}]}`.
-
-**Provenance.** Items are rendered from clinical update events identified in
-the NCCN Guidelines® and related expert consensus documents. They are
-paraphrased questions and rationales and do not reproduce guideline text
-verbatim. Average prompt length is comparable across the four formats
-(254.3–261.5 tokens), which is what makes the budget-matched comparison in the
-paper meaningful.
-
 ## Not for clinical use
 
 These artifacts support research on medical knowledge updating and
