@@ -3,7 +3,7 @@
 
 <h1 align="center">Dense Clinical Contrasts Enhance<br/>Medical Knowledge Updating in Large Language Models</h1>
 
-<p align="center">EMNLP 2026</p>
+<p align="center">EMNLP 2026 Findings</p>
 
 <div align="center">
 
