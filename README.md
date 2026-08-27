@@ -92,7 +92,6 @@ This repository releases the benchmark, the format-rendered training corpora, an
 | | Path | Contents |
 | :--- | :--- | :--- |
 | **Benchmark** | [`data/seer_bench/`](data/seer_bench/) | SEER-Bench: 1,992 staging cases with gold answers and rationales |
-| **Training corpora** | [`data/train/`](data/train/) | 2,530 items in each of four supervision formats (SAQ, FITB, MSQ, EMQ) |
 | **Prompts** | [`prompts/`](prompts/) | All eight construction, generation, and grading prompts |
 
 See the [data card](data/README.md) for field schemas, provenance, and metric
